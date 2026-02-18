@@ -1,14 +1,3 @@
-#-------------------------------------------------------------------------------
-# Name:        module1
-# Purpose:
-#
-# Author:      VINEE
-#
-# Created:     20/07/2024
-# Copyright:   (c) VINEE 2024
-# Licence:     <your licence>
-#-------------------------------------------------------------------------------
-
 import string
 import getpass
 
@@ -82,4 +71,5 @@ if __name__ == '__main__':
     ask_pw = ask_pwd()
     while ask_pw:
         check_pwd()
+
         ask_pw = ask_pwd(True)
